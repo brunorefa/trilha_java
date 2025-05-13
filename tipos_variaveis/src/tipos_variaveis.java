@@ -21,6 +21,6 @@ public class tipos_variaveis {
         // constante é um espaço na memoria que armazena um valor fixo
         // variavel é um espaço na memoria que armazena um valor que pode ser alterado
         // constante é um espaço na memoria que armazena um valor que não pode ser alterado
-
+        
     }
 }
