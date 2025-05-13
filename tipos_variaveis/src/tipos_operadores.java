@@ -38,7 +38,7 @@ public class tipos_operadores {
         System.out.println("Atribuição: " + c);
 
         // operadores unários
-        int d = 10;
+        int d = 5;
         System.out.println("Pré-incremento: " + (++d)); // incrementa antes de usar
         System.out.println("Pós-incremento: " + (d++)); // incrementa depois de usar
         System.out.println("Valor atual de d: " + d); // mostra o valor atual
@@ -66,5 +66,37 @@ public class tipos_operadores {
         System.out.println(concatenacao);
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
+
+        // operadores de repetição
+        int numero = 5;
+        System.out.println(numero--); // pós-decremento
+        System.out.println(numero); // mostra o valor atual
+
+        boolean variavel = true;
+        System.out.println(!variavel); // negação
+        System.out.println(variavel); // mostra o valor atual
+        System.out.println(variavel = false); // atribuição
+
+        // operadores relacionais
+        int num1 = 1;
+        int num2 = 2;
+        System.out.println(num1 == num2); // igual
+        System.out.println(num1 != num2); // diferente
+        System.out.println(num1 > num2); // maior
+        System.out.println(num1 < num2); // menor
+        System.out.println(num1 >= num2); // maior ou igual
+        System.out.println(num1 <= num2); // menor ou igual
+
+        // operadores de condição
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+        if(condicao1 && condicao2) { // e lógico
+            System.out.println("Ambas as condições são verdadeiras");
+        } else if(condicao1 || condicao2) { // ou lógico
+            System.out.println("Pelo menos uma condição é verdadeira");
+        } else {
+            System.out.println("Nenhuma condição é verdadeira");
+        }
+        System.out.println("Fim");
     }
 }
