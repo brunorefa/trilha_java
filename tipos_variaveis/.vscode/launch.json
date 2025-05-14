@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "Usuario",
+            "projectName": "tipos_variaveis_88a5a959"
+        },
+        {
+            "type": "java",
+            "name": "metodos",
+            "request": "launch",
+            "mainClass": "metodos",
+            "projectName": "tipos_variaveis_88a5a959"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
