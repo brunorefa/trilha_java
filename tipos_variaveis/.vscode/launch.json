@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palavras_reservadas",
+            "request": "launch",
+            "mainClass": "palavras_reservadas",
+            "projectName": "tipos_variaveis_88a5a959"
+        },
+        {
+            "type": "java",
             "name": "Usuario",
             "request": "launch",
             "mainClass": "Usuario",
